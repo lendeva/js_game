@@ -1,0 +1,68 @@
+
+body {
+  padding: 20px;
+  
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px; /* Ширина таблицы */
+    height: 000px;
+    margin:0 auto;
+
+}
+.name{
+	 text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 30px;
+}
+
+.rule{
+	 text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+}
+.d{
+  cursor: pointer;
+font-family: Verdana; 
+	font-size:20px;
+   background: #fc0; /* Цвет фона */
+    border: 1px solid #E81E25; /* Граница вокруг ячеек */
+    padding: 5px; /* Поля в ячейках */ 
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px; /* Радиус скругления */
+    justify-content: center;
+	font-weight: bold;
+}
+/*
+.item:hover{
+  transform: scale(1.1);
+  background: #fc9;
+}*/
+
+ #container > .button:hover {
+            text-shadow: 1px 1px 2px Silver;
+             background: blue;
+        }
+
+.button_checkAnswer{
+position: relative;
+left: 400px;
+top: 300px;
+width: 200px;
+border: 2px solid black;
+ border: 2px solid #E81E25;
+
+}
+
+.button_resultWords{
+position: relative;
+left: 400px;
+top: 300px;
+width: 200px;
+border: 2px solid black;
+ border: 2px solid #E81E25;
+}
